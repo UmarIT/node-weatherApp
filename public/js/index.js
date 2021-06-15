@@ -1,6 +1,6 @@
 
 
-console.log('Java script Code is running')
+
 
 
 const weatherform=document.querySelector('form')
