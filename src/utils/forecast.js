@@ -12,6 +12,7 @@ const request= require('postman-request')
             callback('Unble to find Location..!!',undefined)
         }
         else{
+            console.log(body.current.temperature)
             callback(undefined,'it is Currently' +' '+body.current.temperature +' ' +'degree out . There is a'+' '+body.current.precip+'% chance of rain')
         }
 
